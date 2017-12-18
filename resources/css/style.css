@@ -54,9 +54,9 @@ body {
     flex-direction: column;
     margin-right: 32px;
 }
-div{
+/*div{
     border: 1px solid black;
-}
+}*/
 
 .content{
     display:flex;
@@ -132,4 +132,24 @@ img.cookie {
 
 .image-content.cats{
     background-image: url(../images/img-story-1.png)
+}
+
+/* First Column Alignment */
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.secondstory{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.thirdstory{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
